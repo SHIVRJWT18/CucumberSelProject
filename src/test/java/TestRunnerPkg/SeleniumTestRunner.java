@@ -6,9 +6,10 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 features= "F:\\SHIV NEWSCRIPTS\\CucumberSelProject\\src\\main\\java\\FeaturesPkg\\Login.feature"
 ,glue = {"StepDefinitionPkg"}
-,dryRun = true)
+,dryRun = false)
 
-public class TestRunner extends AbstractTestNGCucumberTests
+
+public class SeleniumTestRunner extends AbstractTestNGCucumberTests
 {
 	//  ,tags = "@DeletePlace 
 }
